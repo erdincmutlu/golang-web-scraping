@@ -19,6 +19,7 @@ func main() {
 	// Create the first route handler listening on '/'
 	http.HandleFunc("/", home)
 	http.HandleFunc("/scrape", actions.Scrape)
+	http.HandleFunc("/crawl", actions.Crawl)
 	logr.Info("Starting up on 8080")
 
 	// Start the sever
