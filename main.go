@@ -3,9 +3,10 @@ package main
 
 // Define the fmt import for formatting
 import (
-	"erdinc/golang-web-scraping/pkg/actions"
 	"fmt"
 	"net/http"
+
+	"github.com/erdincmutlu/golang-web-scraping/pkg/actions"
 
 	// You can prefix imports to make it easier to reference them in your code, like this one
 	logr "github.com/sirupsen/logrus"
