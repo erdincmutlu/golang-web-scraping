@@ -1,0 +1,6 @@
+applications:
+  - name: Erdinc-Web-Scraping-App
+    random-route: true
+    memory: 128M
+    env:
+      GO_INSTALL_PACKAGE_SPEC: github.com/erdincmutlu/golang-web-scraping
