@@ -3,6 +3,7 @@ package main
 
 // Define the fmt import for formatting
 import (
+	"erdinc/golang-web-scraping/pkg/actions"
 	"fmt"
 	"net/http"
 
@@ -16,6 +17,7 @@ func main() {
 
 	// Create the first route handler listening on '/'
 	http.HandleFunc("/", home)
+	http.HandleFunc("/scrape", actions.Scrape)
 	logr.Info("Starting up on 8080")
 
 	// Start the sever

@@ -1,4 +1,4 @@
-module erdinc/golang-web-scraping
+module github.com/erdincmutlu/golang-web-scraping
 
 go 1.14
 
